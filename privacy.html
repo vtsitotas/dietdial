@@ -14,11 +14,12 @@
     <nav>
       <a href="./">Home</a>
       <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
       <a href="delete-account.html">Delete your account</a>
     </nav>
 
     <h1>Privacy Policy</h1>
-    <p class="muted">Last updated: 27 September 2026</p>
+    <p class="muted">Last updated: 28 September 2026</p>
 
     <p>This policy explains what the DietDial app (“DietDial”, “we”, “us”) collects, why, who can see it,
       and the choices you have. DietDial is developed and operated by an independent developer, who is the
@@ -26,8 +27,11 @@
 
     <h2>1. What stays on your phone</h2>
     <p>Your food log, recipes, custom foods, favourites, meal templates, water intake, fasting sessions,
-      weight entries, goals and settings are stored only on your device. They are not uploaded to our servers,
-      except for the daily totals described in section 3. You can use DietDial as a guest without an account.</p>
+      weight entries, goals and settings are stored only on your device. So are the details you enter for the
+      DietDial Pro adaptive plan (sex, birth year, height, activity level) and your weekly check-in answers
+      (hunger, energy, sleep, training, mood, stress). None of this is uploaded to our servers, except for the
+      daily totals described in section 3. You can use DietDial as a guest without an account. If you have
+      turned on Android backup, Android may include this data in your own Google account backup.</p>
 
     <h2>2. Your account</h2>
     <p>If you create an account we store your <strong>email address</strong> and a user ID. If you sign in with
@@ -67,13 +71,21 @@
       When you scan a barcode, only the barcode number is sent to <a href="https://world.openfoodfacts.org/privacy">Open Food Facts</a>
       to look up the product. The camera is used only to read barcodes; no photos or video are stored or sent.</p>
 
-    <h2>6. Anonymous usage statistics (opt-in)</h2>
-    <p>Only if you opt in (during setup or in Settings), the app sends anonymous usage events: a random ID that
-      is not linked to your account, the event type (for example “food logged”), the meal type, a calorie
-      range (for example 300–500 kcal), the app version and your platform (Android). No names, email addresses
-      or individual foods are included. We may share or sell aggregated statistics derived from this data (for
-      example “X% of users log breakfast”) with research or nutrition-analytics partners; these cannot identify
-      you. You can switch this off at any time in Settings.</p>
+    <h2>6. Anonymous diet statistics (opt-in)</h2>
+    <p>This is off unless you switch it on (during setup or in <em>Settings → Share anonymous diet
+      statistics</em>). If you do, each time you log food the app sends: the meal type, a calorie range (for
+      example 300–500 kcal), a time-of-day range (for example 10:00–13:59), your country as set in your phone’s
+      region settings, whether you have DietDial Pro, the app version and your platform. Events carry a random
+      ID created on your phone that is <strong>replaced every 30 days</strong> and is never linked to your
+      account, email or name; our server records the time only to the hour. No names, email addresses,
+      individual foods or exact values are sent. Our server rejects anything that isn’t on this list.</p>
+    <p>Because they describe your diet, we treat these statistics as health-related data and only collect
+      them with your explicit consent. We use them to improve DietDial and may share or sell
+      <strong>aggregated reports</strong> derived from them (for example “share of users in Greece who log
+      breakfast”) to research, food or nutrition-analytics partners. Reports only include groups of at least
+      10 different IDs, never individual events. Raw events are deleted after 13 months. Switching this off
+      stops collection immediately and deletes the ID from your phone; events already sent can’t be traced
+      back to you.</p>
 
     <h2>7. Advertising</h2>
     <p>DietDial is free and shows ads through Google AdMob. Google may collect your device’s advertising ID,
@@ -109,7 +121,8 @@
       from our servers. If you can’t use the app, see <a href="delete-account.html">Delete your account</a>.
       Data stored only on your phone is removed when you uninstall the app or clear its data. Anonymous usage
       statistics (section 6) are not linked to your account, so they cannot be traced back to you or deleted
-      with it.</p>
+      with it; they are deleted automatically after 13 months. If you subscribe to DietDial Pro, Google Play
+      and RevenueCat keep records of your purchases for as long as tax and accounting laws require.</p>
 
     <h2>10. Legal bases (EU / UK GDPR)</h2>
     <table>
@@ -117,7 +130,9 @@
       <tr><td>Your account and providing the app</td><td>Performance of a contract (Art. 6(1)(b))</td></tr>
       <tr><td>Daily totals for social features (health data)</td><td>Your explicit consent (Art. 6(1)(a) and
         Art. 9(2)(a))</td></tr>
-      <tr><td>Anonymous usage statistics</td><td>Your consent (Art. 6(1)(a))</td></tr>
+      <tr><td>DietDial Pro subscription</td><td>Performance of a contract (Art. 6(1)(b)); keeping purchase
+        records: legal obligation (Art. 6(1)(c))</td></tr>
+      <tr><td>Anonymous diet statistics</td><td>Your explicit consent (Art. 6(1)(a) and Art. 9(2)(a))</td></tr>
       <tr><td>Personalised advertising</td><td>Your consent (Art. 6(1)(a)), collected through Google’s consent
         form</td></tr>
       <tr><td>Non-personalised advertising and keeping the service secure</td><td>Our legitimate interests in
@@ -134,12 +149,14 @@
 
     <h2>12. Security</h2>
     <p>Data is sent over encrypted connections (HTTPS). Access to data on our servers is restricted by
-      per-user access rules, so other users can only see what section 4 describes.</p>
+      per-user access rules, so other users can only see what section 4 describes, and friend or coach access
+      always needs your acceptance. Passwords must be at least 8 characters with letters and numbers and are
+      stored only as secure hashes by Supabase. We test these rules against common attacks.</p>
 
     <h2>13. Children</h2>
-    <p>DietDial is not intended for children under 13, and we do not knowingly collect their data. If you are
-      under the age of digital consent in your country (up to 16 in the EU), please use the social features
-      only with a parent’s or guardian’s permission.</p>
+    <p>DietDial is for people aged 16 and over, and the adaptive plan in DietDial Pro is for adults (18+). We
+      do not knowingly collect data from children. If you believe a child has given us data, email us and we
+      will delete it.</p>
 
     <h2>14. Changes</h2>
     <p>If we change this policy, we will update the date at the top of this page and, for significant changes,
